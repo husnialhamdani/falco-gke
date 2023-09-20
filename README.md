@@ -1,6 +1,7 @@
 # falco-deployment
-
-## prerequisites
+## Architecture
+![Falco GKE](falco-gke.png)
+## Prerequisites
 1. set variable name for Pub/Sub (Topic, Subscription), Log Sink, Service Account
 2. Provision resource (Pub/Sub, Log Sink and Service account) using Terraform in directory `/prerequisites/terraform`
 3. Get Service Account key, encrypt with SealedSecret
