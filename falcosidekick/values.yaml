@@ -31,14 +31,6 @@ priorityClassName: ""
 podLabels: {}
 podAnnotations: {}
 
-seatalk:
-  image:
-    registry: asia-southeast1-docker.pkg.dev
-    repository: spid-non-prod/spid-non-prod-public/falco-alerts
-    tag: 1.6
-    pullPolicy: IfNotPresent
-  clusterName: spid-prod-cluster
-  webhook: https://openapi.seatalk.io/webhook/group/1TYmJubBRaW1vtFPCrsSZw
 
 sealedSecret:
   secrets:
